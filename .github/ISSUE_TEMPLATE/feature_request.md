@@ -1,7 +1,17 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: This project is deprecated - Feature requests are no longer accepted
 ---
+
+## ⚠️ PROJECT DEPRECATED ⚠️
+
+**This project is no longer actively maintained as of December 2025.**
+
+We are not accepting new feature requests. This repository remains available for historical reference and educational purposes only.
+
+---
+
+<!-- This template is preserved for historical reference only -->
 
 <!--- Please keep this note for the community --->
 

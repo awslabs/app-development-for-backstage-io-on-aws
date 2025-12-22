@@ -1,19 +1,27 @@
+## ⚠️ PROJECT DEPRECATED ⚠️
+
+**This project is no longer actively maintained as of December 2025.**
+
+We are not accepting new pull requests, feature requests, or bug reports. This repository remains available for historical reference and educational purposes only.
+
+If you have critical security concerns, please use [AWS's vulnerability reporting page](https://aws.amazon.com/security/vulnerability-reporting/) instead.
+
+---
+
 ### What does this PR do?
 
-🛑 Please open an issue first to discuss any significant work and flesh out details/direction - we would hate for your time to be wasted.
-Consult the [CONTRIBUTING](https://github.com/awslabs/data-on-eks/blob/main/CONTRIBUTING.md#contributing-via-pull-requests) guide for submitting pull-requests.
+🛑 **NOTICE**: This project is deprecated and pull requests are no longer being accepted.
 
-<!-- A brief description of the change being made with this pull request. -->
+<!-- This template is preserved for historical reference only -->
 
 ### Motivation
 
 <!-- What inspired you to submit this pull request? -->
 
-
 ### For Moderators
 
-- [ ] Compile, build, tests successful before merge?
+- [ ] **Project is deprecated - PRs are not being accepted**
 
 ### Additional Notes
 
-<!-- Anything else we should know when reviewing? -->
+<!-- This project is no longer maintained -->

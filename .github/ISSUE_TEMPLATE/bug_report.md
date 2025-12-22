@@ -1,7 +1,19 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: This project is deprecated - Bug reports are no longer accepted
 ---
+
+## ⚠️ PROJECT DEPRECATED ⚠️
+
+**This project is no longer actively maintained as of December 2025.**
+
+We are not accepting new bug reports. This repository remains available for historical reference and educational purposes only.
+
+**If you have critical security concerns**, please use [AWS's vulnerability reporting page](https://aws.amazon.com/security/vulnerability-reporting/) instead of GitHub issues.
+
+---
+
+<!-- This template is preserved for historical reference only -->
 
 ## Description
 

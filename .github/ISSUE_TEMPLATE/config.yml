@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+  - name: "⚠️ Project Deprecated"
+    url: "https://github.com/awslabs/harmonix#-project-deprecated-"
+    about: "This project is no longer actively maintained as of December 2025. Please read the README for more information."
+  - name: "Security Issues"
+    url: "https://aws.amazon.com/security/vulnerability-reporting/"
+    about: "For security vulnerabilities, please use AWS's vulnerability reporting page instead of GitHub issues."
