@@ -4,16 +4,21 @@ sidebar_position: 12
 
 ## Contributing
 
-Thank you for your interest in contributing to our project. Whether it's a bug report, new feature, correction, or additional
-documentation, we greatly value feedback and contributions from our community.
+:::danger Project Deprecated
 
-Please read through this document before submitting any issues or pull requests to ensure we have all the necessary
-information to effectively respond to your bug report or contribution.
+**This project is no longer actively maintained as of December 2025.** We are not accepting new contributions, feature requests, or bug reports. This document is preserved for historical reference.
+
+:::
+
+Thank you for your past interest in contributing to our project. Whether it was a bug report, new feature, correction, or additional
+documentation, we greatly valued feedback and contributions from our community.
+
+This document is preserved for historical reference to show how contributions were previously handled.
 
 
-### Reporting Bugs/Feature Requests
+### Reporting Bugs/Feature Requests (Historical)
 
-We welcome you to use the GitHub issue tracker to report bugs or suggest features.
+Previously, we welcomed users to use the GitHub issue tracker to report bugs or suggest features. **This project is now deprecated and no longer accepting bug reports or feature requests.**
 
 When filing an issue, please check existing open, or recently closed, issues to make sure somebody else hasn't already
 reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
@@ -24,8 +29,10 @@ reported the issue. Please try to include as much information as you can. Detail
 * Anything unusual about your environment or deployment
 
 
-### Contributing via Pull Requests
-Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
+### Contributing via Pull Requests (Historical)
+Previously, contributions via pull requests were much appreciated. **This project is now deprecated and no longer accepting pull requests.**
+
+The following process was previously used for pull requests (preserved for historical reference):
 
 1. You are working against the latest source on the *main* branch.
 2. You check existing open, and recently merged, pull requests to make sure someone else hasn't addressed the problem already.
@@ -44,8 +51,8 @@ GitHub provides additional document on [forking a repository](https://help.githu
 [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 
-### Finding contributions to work on
-Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any 'help wanted' issues is a great place to start.
+### Finding contributions to work on (Historical)
+Previously, looking at the existing issues was a great way to find something to contribute on. **This project is now deprecated and no longer accepting contributions.**
 
 
 ### Code of Conduct
@@ -63,10 +70,15 @@ If you discover a potential security issue in this project we ask that you notif
 See the [LICENSE](https://github.com/awslabs/app-development-for-backstage-io-on-aws/blob/main/LICENSE) file for our project's licensing. We will ask you to confirm the licensing of your contribution.
 
 
-## Contributing Assets to Harmonix on AWS
+## Contributing Assets to Harmonix on AWS (Historical)
 
-Thank you for considering a contribution to Harmonix on AWS project!
-The above described guidelines are to set the standard of submitting Pull Request, That is in conjunction to the below description
+:::warning No Longer Accepting Contributions
+
+This project is deprecated and no longer accepting contributions.
+
+:::
+
+The following information is preserved for historical reference to show how contributions to Harmonix on AWS were previously handled.
 
 ### Contribution Type
 

@@ -60,7 +60,7 @@ toc_max_heading_level: 4
 
 #### Is there a roadmap?
 > 
-> Please see the features section under [features](features.md)
+> **No.** This project has been deprecated and is no longer actively maintained. No future features or updates are planned. Please see the [features page](features.md) for historical capabilities.
 
 <br/>
 
@@ -82,7 +82,7 @@ toc_max_heading_level: 4
 
 #### How can I report bugs or submit feature requests?
 > 
-> Please submit any issues and requests via the [public repository](https://github.com/awslabs/harmonix/issues)
+> **This project is deprecated and no longer accepting bug reports or feature requests.** The repository remains available for historical reference at the [public repository](https://github.com/awslabs/harmonix).
 <br/>
 
 #### Will AWS supply templates or examples? How will they be maintained?
@@ -113,9 +113,11 @@ toc_max_heading_level: 4
 
 #### Does Harmonix on AWS have a CLI?
 > 
-> Not yet - Please see [features](features.md)
+> **No.** This feature was never implemented, and with the project now deprecated, it will not be developed.
 <br/>
 
 ---
 
-Have an additional question? Reach out to us at fsi-pace-pe@amazon.com
+~~Have an additional question? Reach out to us at fsi-pace-pe@amazon.com~~
+
+**This project is deprecated.** For historical reference only.

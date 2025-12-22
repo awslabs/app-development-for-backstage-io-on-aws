@@ -1,10 +1,11 @@
 ## Contributing
 
-Thank you for your interest in contributing to our project. Whether it's a bug report, new feature, correction, or additional
-documentation, we greatly value feedback and contributions from our community.
+> **⚠️ Project Deprecated:** This project is no longer actively maintained as of December 2025. We are not accepting new contributions, feature requests, or bug reports. This document is preserved for historical reference.
 
-Please read through this document before submitting any issues or pull requests to ensure we have all the necessary
-information to effectively respond to your bug report or contribution.
+Thank you for your past interest in contributing to our project. Whether it was a bug report, new feature, correction, or additional
+documentation, we greatly valued feedback and contributions from our community.
+
+This document is preserved for historical reference to show how contributions were previously handled.
 
 
 ### Reporting Bugs/Feature Requests
