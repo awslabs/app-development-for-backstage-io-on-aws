@@ -2,7 +2,7 @@
 
 :::danger Workshops No Longer Available
 
-**Harmonix on AWS workshops are no longer offered as of November 2025.**
+**Harmonix on AWS workshops are no longer offered as of December 2025.**
 
 This project has been deprecated and workshops have been discontinued. The information below is preserved for historical reference only.
 
