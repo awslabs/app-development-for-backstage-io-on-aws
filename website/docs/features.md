@@ -4,7 +4,15 @@ sidebar_position: 8
 
 # Features
 
+:::info Project Archived
+
+This project is deprecated and no longer maintained. The features listed below describe the capabilities that Harmonix on AWS provided. This information is preserved for reference and educational purposes only.
+
+:::
+
 ## Templates
+
+Harmonix on AWS provided the following templates:
 
 ### Providers
 
@@ -123,8 +131,10 @@ sidebar_position: 8
 
 ## Platform Engineer Features
 
+The following features were available to platform engineers:
+
 ### Add/Remove providers
-Allow the platform engineer to configure environments with multiple providers.
+Allowed the platform engineer to configure environments with multiple providers.
 <br/>
 **Use case**: a platform engineer design an environment where application should be running on two regions for resiliency purposes. Two providers with different regions can be associated to the same environment.
 <br/>
@@ -139,7 +149,7 @@ Once at least one provider is selected, you can add more providers of the same t
 <img  src="/img/features/multi-providers.png"/>
 
 ### Delete providers / environments
-Allow the platform engineer to delete a provider or environment and their associated resources.
+Allowed the platform engineer to delete a provider or environment and their associated resources.
 
 <div class="templates">
 <table>
@@ -155,16 +165,19 @@ Allow the platform engineer to delete a provider or environment and their associ
 </div>
 
 ### Segregated auditing
-Allow separation of audit logs for each environment. Audit logs are created only for the applications which run on the particular environment provider. 
+Allowed separation of audit logs for each environment. Audit logs were created only for the applications which ran on the particular environment provider. 
 
 ### Deployment requires approval
-Configure additional control for sensitive environment when automated deployment is not desired. If requires approval is set to the environment - all application pipelines deployed on this environment will require approval before proceeding.
+Configured additional control for sensitive environment when automated deployment was not desired. If requires approval was set to the environment - all application pipelines deployed on this environment would require approval before proceeding.
 
 <img width="60%" src="/img/features/require-approval.png"/>
 
-## Application developer Features
+## Application Developer Features
+
+The following features were available to application developers:
+
 ### Resource binding
-Allow the application developer to bind shared AWS resources to an application to it can access the shared resource.
+Allowed the application developer to bind shared AWS resources to an application so it could access the shared resource.
 
 <img  src="/img/features/resource-binding.png"/>
 

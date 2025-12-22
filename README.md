@@ -1,6 +1,6 @@
 # ⚠️ PROJECT DEPRECATED ⚠️
 
-**This project is no longer actively maintained as of November 2025.**
+**This project is no longer actively maintained as of December 2025.**
 
 **🚨 SECURITY NOTICE**: Please upgrade to v0.4.2 immediately to address critical security vulnerabilities.
 

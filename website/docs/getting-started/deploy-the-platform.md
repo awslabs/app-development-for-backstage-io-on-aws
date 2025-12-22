@@ -4,19 +4,32 @@ sidebar_position: 1
 
 # Installation
 
-Installing Harmonix on AWS solution will provide you with the complete reference implementation including authentication/authorization, a Backstage platform instance, source code management, and CI/CD pipelines. By following this guide you will:
+:::danger Project Deprecated
 
-- Deploy the AWS infrastructure required to run Harmonix on AWS
-- Deploy a GitLab source code management instance including provisioning of resources to run CI/CD pipelines
-- Configure authentication/authorization using Okta as the identity provider (Backstage supports [several other identity providers](https://backstage.io/docs/auth/))
-- Deploy a sample repository of example software templates to create apps, environments, and resources for AWS
+**This project is no longer maintained and should not be installed.**
 
-## Prerequisites
+Harmonix on AWS was deprecated in December 2025 and is no longer supported. This installation guide is preserved for reference purposes only.
 
-### Software prerequisites
+**If you have an existing installation:**
+- Upgrade to v0.4.2 immediately for critical security fixes
+- Plan to migrate away from this solution
+- No future updates or support will be provided
+
+:::
+
+Installing Harmonix on AWS solution provided a complete reference implementation including authentication/authorization, a Backstage platform instance, source code management, and CI/CD pipelines. The installation process included:
+
+- Deployed the AWS infrastructure required to run Harmonix on AWS
+- Deployed a GitLab source code management instance including provisioning of resources to run CI/CD pipelines
+- Configured authentication/authorization using Okta as the identity provider (Backstage supported [several other identity providers](https://backstage.io/docs/auth/))
+- Deployed a sample repository of example software templates to create apps, environments, and resources for AWS
+
+## Prerequisites (Historical Reference)
+
+### Software prerequisites that were required
 
 
-The following software is required to perform the installation of the platform solution:
+The following software was required to perform the installation of the platform solution:
 - Unix-based operating system (Linux, MacOS, or the Windows Subsystem for Linux)
 - [node.js](https://nodejs.org/en/) - 18.20 or higher
 - [yarn](https://classic.yarnpkg.com/en/docs/install) - v1.x (Yarn classic)
@@ -35,9 +48,9 @@ The installation instructions documented here were tested using the following ve
 - python 3.12
 :::
 
-### Solution Platform prerequisites
+### Solution Platform prerequisites (Historical Reference)
 
-Prior to installing the Harmonix solution platform, you will need to ensure that the following items are configured and available:
+Prior to installing the Harmonix solution platform, the following items were required to be configured and available:
 
 * **AWS Account ID and region** - The solution will be installed into an AWS account and region.  You will need the 12-digit account ID and must be able to log into the account with sufficient permissions to provision infrastructure resources.
 
@@ -48,7 +61,15 @@ Prior to installing the Harmonix solution platform, you will need to ensure that
   * A client id, secret and audience  are required to set up a Backstage Okta authentication provider.  See the [Backstage Okta auth documentation](https://backstage.io/docs/auth/okta/provider) for more details.  
   * Other identity providers are supported and could be substituted using different plugins.  Configuring alternative authentication is not covered in this documentation.  Refer to the [Backstage Authentication documentation](https://backstage.io/docs/auth/) for details to install and configure alternative providers.
 
-## Installation
+## Installation Process
+
+:::warning Do Not Follow These Steps
+
+**These installation steps are for historical reference only. Do not install this deprecated software as-is.**
+
+:::
+
+The following steps describe how the installation was performed:
 
 1. Clone the repository and change to the repository location
    ```sh
