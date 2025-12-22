@@ -76,26 +76,10 @@ const config: Config = {
       },
       items: [
         {
-          to: '/docs/getting-started/deploy-the-platform', 
-          label: 'Getting Started', 
-          position: 'left'
-        },
-        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Documentation',
-        },
-        // {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          to: '/workshop', 
-          label: 'Workshop', 
-          position: 'left'
-        },
-        {
-          to: '/partners', 
-          label: 'Partners', 
-          position: 'left'
+          label: 'Documentation (Archived)',
         },
         {
           to: '/about', 
@@ -111,11 +95,12 @@ const config: Config = {
       ],
     },
     announcementBar: {
+      id: 'harmonix-deprecated-2025', // This forces the announcement to show even if previous ones were closed
       content:
-      'Harmonix on AWS 0.4.0 is now available.  Check it out and give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/awslabs/harmonix">GitHub</a>! ⭐️.  View changes <a target="_blank" rel="noopener noreferrer" href="https://harmonixonaws.io/docs/CHANGELOG">here</a>.',
-      backgroundColor: '#ffffff',
-      textColor: '#000000',
-      isCloseable: true,
+      '⚠️ <strong>Project Deprecated:</strong> Harmonix on AWS is no longer actively maintained. Please upgrade to v0.4.2 for critical security fixes. <a target="_blank" rel="noopener noreferrer" href="https://github.com/awslabs/harmonix">View on GitHub</a>',
+      backgroundColor: '#fff3cd', // Light yellow/amber background
+      textColor: '#856404', // Dark amber text
+      isCloseable: false, // Don't allow closing this important notice
     },
     footer: {
       style: 'dark',

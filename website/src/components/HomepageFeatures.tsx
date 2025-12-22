@@ -2,7 +2,6 @@
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import { Feature, FeatureItem } from './HomepageFeature';
-import Carousel from 'react-bootstrap/Carousel';
 
 type FeatureGroup = {
   direction: "ltr" | "rtl";
@@ -57,52 +56,75 @@ const opaSeventhVideoContent = (
 </div>
 )
 
-const carouselContent = (
-  <div className='carouselTitle'>
-  <Carousel data-bs-theme="dark" interval={4200} pause={'hover'} touch={true} title='' controls={false} >
-  <Carousel.Item>
-    <Carousel.Caption style={{minHeight:'120px'}}>
-      <h4>🚀 NEW RELEASE 0.4.0 🚀</h4>
-      <p><b>V0.4.0</b></p>
-      <p>Checkout the new release notes <a href="/docs/CHANGELOG" > --&gt; here</a> </p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  {/* <Carousel.Item>
-    <Carousel.Caption style={{minHeight:'120px'}}>
-      <h4>GitHub Integration</h4>
-      <p><b>GitHub Source Control Integration</b></p>
-      <p>Harmonix on AWS is now integrated with both GitHub & Gitlab Source control <br/>You can even extend it to more git providers. Read more <a href="/docs/integration/git" >--&gt; here</a></p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <Carousel.Caption style={{minHeight:'120px'}}>
-      <h4>Terraform Template</h4>
-      <p><b>Terraform ECS Provider Template</b></p>
-      <p>A New Terraform template to provision AWS ECS Clusters</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <Carousel.Caption style={{minHeight:'120px'}}>
-      <h4>GenAI Template</h4>
-      <p><b>GenAI provider and RAG app</b></p>
-      <p>New GenAI Provider for development of GenAI Applications <br/> A new RAG demo app to get you started quickly <a href="/docs/category/generative-ai">Click here for more details</a></p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <Carousel.Caption style={{minHeight:'120px'}}>
-      <h4>🚀 NEW 🚀</h4>
-      <p><b>AWS SecretsManager shared resource</b></p>
-      <p>You can now create shared secrets on AWS and easily bind them to applications</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <Carousel.Caption style={{minHeight:'120px'}}>
-      <h4>🚀 NEW 🚀</h4>
-      <p><b>AWS Control Tower & AFT Integration</b></p>
-      <p>Step by Step <a href="/docs/integration/control-tower-and-aft" >Documentation</a> how to integrate Harmonix on AWS <br/> with AWS Control Tower and AFT (Account Factory for Terraform)</p>
-    </Carousel.Caption>
-  </Carousel.Item> */}
-    </Carousel>
+// Carousel content removed - project deprecated, no need for announcements
+
+const quickLinksContent = (
+  <div style={{ 
+    textAlign: 'center', 
+    padding: '10px 20px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: '8px'
+  }}>
+    <h3 style={{ marginBottom: '8px', fontSize: '1.4rem' }}>
+      Explore Harmonix on AWS
+    </h3>
+    <div style={{ 
+      display: 'flex', 
+      gap: '12px',
+      flexWrap: 'wrap', 
+      justifyContent: 'center' 
+    }}>
+      <a 
+        href="/docs/intro" 
+        style={{
+          padding: '8px 24px',
+          fontSize: '0.95rem',
+          border: '2px solid #0D317F',
+          color: '#0D317F',
+          textDecoration: 'none',
+          borderRadius: '4px',
+          fontWeight: '500',
+          transition: 'all 0.3s ease',
+        }}
+        onMouseOver={(e) => {
+          e.currentTarget.style.backgroundColor = '#0D317F';
+          e.currentTarget.style.color = 'white';
+        }}
+        onMouseOut={(e) => {
+          e.currentTarget.style.backgroundColor = 'transparent';
+          e.currentTarget.style.color = '#0D317F';
+        }}
+      >
+        View Documentation (Archived)
+      </a>
+      <a 
+        href="https://github.com/awslabs/harmonix" 
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          padding: '8px 24px',
+          fontSize: '0.95rem',
+          border: '2px solid #0D317F',
+          color: '#0D317F',
+          textDecoration: 'none',
+          borderRadius: '4px',
+          fontWeight: '500',
+          transition: 'all 0.3s ease',
+        }}
+        onMouseOver={(e) => {
+          e.currentTarget.style.backgroundColor = '#0D317F';
+          e.currentTarget.style.color = 'white';
+        }}
+        onMouseOut={(e) => {
+          e.currentTarget.style.backgroundColor = 'transparent';
+          e.currentTarget.style.color = '#0D317F';
+        }}
+      >
+        GitHub Repository
+      </a>
+    </div>
   </div>
 )
 
@@ -242,16 +264,18 @@ const opaMainVideo: FeatureItem[] = [
   },
 ]
 
-const opaCarousel: FeatureItem[] = [
+// opaCarousel removed - no announcements needed for deprecated project
+
+const quickLinksSection: FeatureItem[] = [
   {
-    title: 'Updates',
+    title: 'Quick Links',
     Svg: require('@site/static/img/regulations.svg').default,
     noSVG: true,
-    minHeight: '300px',
-    customTextStyle: { fontSize: '24px', maxWidth: '100%', margin: 'auto', minHeight: '145px' },
+    minHeight: '80px',
+    customTextStyle: { fontSize: '24px', maxWidth: '100%', margin: 'auto', minHeight: '60px' },
     description: (
       <>
-        {carouselContent}
+        {quickLinksContent}
       </>
     ),
   },
@@ -449,7 +473,7 @@ const opaImageList: FeatureItem[] = [
 const FeatureRowList: FeatureGroup[] = [
   {
     direction: "ltr",
-    FeatureItems: opaCarousel,
+    FeatureItems: quickLinksSection,
   },
   {
     direction: "ltr",
@@ -459,8 +483,6 @@ const FeatureRowList: FeatureGroup[] = [
     direction: "ltr",
     FeatureItems: opaDescription,
   },
-
-
   {
     direction: "ltr",
     FeatureItems: opaImageList,
@@ -473,7 +495,6 @@ const FeatureRowList: FeatureGroup[] = [
     direction: "ltr",
     FeatureItems: SpeedFeatureList,
   },
-
   {
     direction: "ltr",
     FeatureItems: ScaleFeatureList,

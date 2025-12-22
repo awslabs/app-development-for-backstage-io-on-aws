@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.2 - 2025-10-25
+* Remove trust policy in sample code for EKS compute environments
+* Set PAT expiration from 10 to 365 days
+* Make VPC CIDR configurable for hosting Backstage
+
 ## 0.4.1 - 2025-05-02
 * prevent whitespace in backstage entity ID during scaffolding
 * Bug Fixes
