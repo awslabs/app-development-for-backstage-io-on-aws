@@ -1,0 +1,16 @@
+# Harmonix on AWS - Deprecated Project
+# This project is no longer maintained and should not be indexed for new content
+
+User-agent: *
+Disallow: /docs/getting-started/
+Disallow: /workshop
+Allow: /docs/intro
+Allow: /docs/features
+Allow: /about
+Allow: /
+
+# Discourage crawling but allow access to main informational pages
+Crawl-delay: 86400
+
+# Sitemap (if exists)
+# Sitemap: https://harmonixonaws.io/sitemap.xml
