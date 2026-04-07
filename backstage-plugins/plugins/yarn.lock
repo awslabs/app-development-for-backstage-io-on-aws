@@ -1545,7 +1545,7 @@ __metadata:
     "@backstage/types": ^1.2.1
     "@types/fs-extra": ^11.0.4
     "@types/lodash": 4.17.7
-    lodash: ^4.17.21
+    lodash: ^4.18.1
     react: ^18.0.0
     react-dom: ^18.0.0
     react-router-dom: ^6.26.0
@@ -22532,6 +22532,13 @@ __metadata:
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.18.1":
+  version: 4.18.1
+  resolution: "lodash@npm:4.18.1"
+  checksum: 8/bb5f5b49aad29614e709af02b64c56b0f8b78c6a81434a3c1ae527d2f0f78ca08f9d9fb22aa825a053876c9d2166e9c01f31c356014b5e2bdc0556c057433102
   languageName: node
   linkType: hard
 

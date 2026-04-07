@@ -54,7 +54,7 @@
     "@backstage/plugin-scaffolder-backend": "^2.1.1",
     "@backstage/plugin-scaffolder-node": "^0.8.0",
     "@backstage/types": "^1.2.1",
-    "lodash": "^4.17.21",
+    "lodash": "^4.18.1",
     "winston": "^3.17.0",
     "yaml": "^2.5.0"
   },
